@@ -1,5 +1,5 @@
 # paraphrase-dataset
-This repository contains code and data sample used in the following paper:
+This repository contains code and data used in the following paper:
 
 	@inproceedings{lan2017continuously,
   	  title      = {A Continuously Growing Dataset of Sentential Paraphrases},
