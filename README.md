@@ -1,13 +1,13 @@
 # paraphrase-dataset
 This repository contains code and data sample used in the following paper:
 
-@inproceedings{lan2017continuously,
-  title      = {A Continuously Growing Dataset of Sentential Paraphrases},
-  author     = {Lan, Wuwei and Qiu, Siyu and He, Hua and Xu, Wei},
-  booktitle  = {Proceedings of The 2017 Conference on Empirical Methods on Natural Language Processing (EMNLP)},
-  year       = {2017},
-  url        = {https://arxiv.org/abs/1708.00391}
-}
+@phdthesis{xu2014data,
+  author = {Xu, Wei},
+  title = {Data-Drive Approaches for Paraphrasing Across Language Variations},
+  school = {Department of Computer Science, New York University},
+  year = {2014},
+  url = {http://www.cis.upenn.edu/~xwe/files/thesis-wei.pdf}
+}			    
 
 Please email lan.105@osu.edu for the full dataset. Only sample data is included in this Github repository.
 
