@@ -1,13 +1,13 @@
 # paraphrase-dataset
 This repository contains code and data sample used in the following paper:
 
-@inproceedings{xu2013gathering,
-  title      = {Gathering and generating paraphrases from {Twitter} with application to normalization},
-  author     = {Xu, Wei and Ritter, Alan and Grishman, Ralph},
-  booktitle  = {Proceedings of the Sixth Workshop on Building and Using Comparable Corpora (BUCC)},
-  year       = {2013},
-  url        = {http://aclweb.org/anthology/W/W13/W13-2515.pdf}
-}   
+	@inproceedings{lan2017continuously,
+  	  title      = {A Continuously Growing Dataset of Sentential Paraphrases},
+  	  author     = {Lan, Wuwei and Qiu, Siyu and He, Hua and Xu, Wei},
+  	  booktitle  = {Proceedings of The 2017 Conference on Empirical Methods on Natural Language Processing (EMNLP)},
+  	  year       = {2017},
+  	  url        = {https://arxiv.org/abs/1708.00391}
+  	} 
 
 Please email lan.105@osu.edu for the full dataset. Only sample data is included in this Github repository.
 
