@@ -2,11 +2,14 @@
 This repository contains code and data used in the following paper:
 
 	@inproceedings{lan2017continuously,
+	  author     = {Lan, Wuwei and Qiu, Siyu and He, Hua and Xu, Wei},
   	  title      = {A Continuously Growing Dataset of Sentential Paraphrases},
-  	  author     = {Lan, Wuwei and Qiu, Siyu and He, Hua and Xu, Wei},
   	  booktitle  = {Proceedings of The 2017 Conference on Empirical Methods on Natural Language Processing (EMNLP)},
   	  year       = {2017},
-  	  url        = {https://arxiv.org/abs/1708.00391}
+	  publisher  = {Association for Computational Linguistics},
+	  pages      = {1235--1245},
+	  location   = {Copenhagen, Denmark}
+  	  url        = {http://aclweb.org/anthology/D17-1127}
   	} 
 
 Please email lan.105@osu.edu for the full dataset. Only sample data is included in this Github repository.
