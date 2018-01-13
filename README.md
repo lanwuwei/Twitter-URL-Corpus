@@ -1,3 +1,6 @@
+# News
+Currently this repository contains 3-month data, and 1-year data can be available soon!
+
 # paraphrase-dataset
 This repository contains code and data used in the following paper:
 
