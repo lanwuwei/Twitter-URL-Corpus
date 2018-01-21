@@ -1,5 +1,5 @@
 # News
-Currently this repository contains 3-month data, and 1-year data can be available soon!
+Currently this repository contains 3-month data, and our 1-year URL data is available now: 2,869,657 candidate pairs.
 
 # Paraphrase-dataset
 This repository contains code and data used in the following paper:
