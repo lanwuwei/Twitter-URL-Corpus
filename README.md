@@ -1,5 +1,5 @@
 # News
-Currently this repository contains 3-month data, and our 1-year URL data is available now: 2,869,657 candidate pairs. Please email lan.105@osu.edu for the full dataset. Only sample data is included in this Github repository.
+Currently this repository contains 3-month raw data sample, and our 1-year URL data is available now: 2,869,657 candidate pairs. Please email lan.105@osu.edu for the full dataset. 
 
 # Paraphrase-dataset
 This repository contains code and data used in the following paper:
@@ -14,7 +14,7 @@ This repository contains code and data used in the following paper:
 	  location   = {Copenhagen, Denmark}
   	  url        = {http://aclweb.org/anthology/D17-1127}
   	} 
-
+Please use Twitter_URL_Corpus_train.txt to train your paraphrase identification model and use Twitter_URL_Corpus_test.txt to test performance.
 
 ## A few notes
 1. Put your own Twitter keys into config.py and modify line 59 in main.py before running the code.
