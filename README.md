@@ -22,3 +22,6 @@ Please email lan.105@osu.edu for the full dataset. Only sample data is included 
 2. Training and testing file is the subset of raw data with human annotation, both files have the same format, each line contains: sentence1 \tab sentence2 \tab (n,6) \tab url
 3. For each sentence pair, there are 6 Amazon Mechanical Turk workers annotating it. 1 representa paraphrase and 0 represents non-paraphrase. So totally n out 6 workers think the pair is paraphrase. If n<=2, we treat them as non-paraphrase; if n>=4, we treat them as paraphrase; if n==3, we discard them.
 4. After discarding n==3, we can get 42200 for training and 9324 for testing.
+
+## License
+It is released for non-commercial use under the CC BY-NC-SA 3.0 license.
