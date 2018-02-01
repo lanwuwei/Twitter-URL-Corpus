@@ -1,5 +1,5 @@
 # News
-Currently this repository contains 3-month data, and our 1-year URL data is available now: 2,869,657 candidate pairs.
+Currently this repository contains 3-month data, and our 1-year URL data is available now: 2,869,657 candidate pairs. Please email lan.105@osu.edu for the full dataset. Only sample data is included in this Github repository.
 
 # Paraphrase-dataset
 This repository contains code and data used in the following paper:
@@ -15,7 +15,6 @@ This repository contains code and data used in the following paper:
   	  url        = {http://aclweb.org/anthology/D17-1127}
   	} 
 
-Please email lan.105@osu.edu for the full dataset. Only sample data is included in this Github repository.
 
 ## A few notes
 1. Put your own Twitter keys into config.py and modify line 59 in main.py before running the code.
@@ -24,4 +23,4 @@ Please email lan.105@osu.edu for the full dataset. Only sample data is included 
 4. After discarding n==3, we can get 42200 for training and 9324 for testing.
 
 ## License
-It is released for non-commercial use under the CC BY-NC-SA 3.0 license.
+It is released for non-commercial use under the CC BY-NC-SA 3.0 license. Use of the data must abide by the Twitter Terms of Service and Developer Policy.
