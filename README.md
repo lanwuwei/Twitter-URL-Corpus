@@ -2,7 +2,7 @@
 Currently this repository contains 3-month raw data sample, and our 1-year URL data is available now: 2,869,657 candidate pairs. Please email lan.105@osu.edu for the full dataset. 
 
 ## Paraphrase-dataset
-This repository contains code and data used in the following paper, if you use our code or data for your research please cite:
+This repository contains code and data used in the following paper, if you use them in your research please cite:
 
 	@inproceedings{lan2017continuously,
 	  author     = {Lan, Wuwei and Qiu, Siyu and He, Hua and Xu, Wei},
