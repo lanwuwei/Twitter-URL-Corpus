@@ -1,5 +1,5 @@
 ## News
-Currently this repository contains 3-month raw data sample, and our 1-year URL data is available now: 2,869,657 candidate pairs. Please refer our [paraphrase website](http://web.cse.ohio-state.edu/~lan.105/project.html) to download dataset. 
+Currently this repository contains 3-month raw data sample, and our 1-year URL data is available now: 2,869,657 candidate pairs. Please check our [paraphrase website](http://web.cse.ohio-state.edu/~lan.105/project.html) to download dataset. 
 
 ## Paraphrase-dataset
 This repository contains code and data used in the following paper, please cite if you use it for your research:
