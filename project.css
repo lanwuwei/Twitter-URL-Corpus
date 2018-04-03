@@ -1,0 +1,169 @@
+/* BODY AND WRAPPER */
+body {
+  /* background-color: #838F98; */
+  border-style: hidden;
+  font-family: Helvetica, sans-serif;
+  font-weight: 350;
+  font-size: 16px;
+  max-width: 950px;
+  padding: .15in;
+  word-spacing: normal;
+  margin: auto;
+  margin-top: 5px
+}
+
+#wrapper {
+  background-color: white;
+	/* border-style: solid;
+  border-width: 1px;
+  border-radius:5px;
+  box-shadow: 3px 3px 3px #888888; */
+  font-family: sans-serif;
+  max-width: 800px;
+  padding: .15in;
+  word-spacing: normal;
+  margin: auto;
+  margin-top: 5px
+}
+
+/* LINK STYLES */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #BF5700;
+}
+
+a:visited {
+  color: #6E2600;
+}
+
+a:hover {
+  color: #0000AF;
+}
+
+a:active {
+  color: #0000FF;
+}
+
+a.email {
+  display: block;
+  margin: 10px 15px 10px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #BF5700;
+}
+
+a.email:hover {
+  text-decoration: none;
+}
+
+a.menu, a.menu:link, a.menu:visited {
+  display: block;
+  padding: 13px 15px 13px 15px;
+  font-size: 110%;
+  font-weight: 700;
+  color: #333333;
+}
+
+a.menu:hover, a.menu:active {
+  color: #BF5700;
+}
+
+a.publink {
+  color: #000000;
+  font-weight: bold;
+}
+
+a.publink:hover {
+  color: #BF5700;
+}
+
+a.syslink {
+  font-weight: bold;
+}
+
+a.button, a.button:link, a.button:visited, a.button:hover, a.button:active {
+  border-radius: 5px;
+  background: #BF5700;
+  color: #FFFFFF;
+  padding: 2px 4px 2px 4px; 
+  font-size: 11px
+}
+
+a.button:hover {
+  background: #9E4600;
+}
+
+/* HEADER  */
+#name {
+  float: left;
+  vertical-align: middle;
+  margin: 10px 5px;
+  color: #333333;
+}
+
+#header {
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  overflow: hidden;
+  margin: 0px 5px 10px 5px;
+  display: inline-block;
+  width: 100%;
+}
+
+#header h1 {
+  display: inline;
+  padding: 10px;
+}
+
+#header ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  line-height: normal;
+  display: inline;
+  float: right;
+}
+
+#header li {
+  display: inline-block;
+}
+
+#picimg{
+  border-radius:5px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+/* NORMAL STUFF */
+h1 {
+  padding-right: 50px;
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: lighter;
+}
+  
+li:before {
+  content: " ";
+  font-size: large;
+  color: #9E4600;
+}
+
+li {
+  list-style: none;
+  margin: 25px 0px;
+  line-height: 23px;
+}
+
+p {
+  margin: 5px;
+  padding: 10px;
+  line-height: 20px;
+}
+

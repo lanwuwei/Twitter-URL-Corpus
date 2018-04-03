@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage for Language Net</title>
+  <link rel="stylesheet" type="text/css" href="project.css">
+
+<script>
+function showHide(args) {
+  var name = arguments[0]
+  if (document.getElementById(name).style.display == 'block') {
+    document.getElementById(name).style.display='none';
+  } else {
+    document.getElementById(name).style.display='block';
+  }
+}
+</script>
+</head>
+
+<body>
+
+<br>
+<center>
+  <h1 style="color:dodgerblue">Language-Net: The Large Scale Paraphrase Dataset</h1>
+</center>
+<br>
+
+<h3 style="color: brown">The Corpus</h3>
+
+<ul>
+ <li>The Language-Net is a collection of sentence level paraphrases from Twitter by linking tweets through shared
+URLs. This corpus is the largest up to date with 51,524 human annotated sentence pairs: 42200 for training and 9324 for testing. It can grow 30,000
+new sentential paraphrases per month with ∼70% precision. Now we have 1-year data available: 2,869,657 candidate pairs! <br><br>
+        The following paper introduces the corpus in detail:<br>
+        <a class="publink" href="https://arxiv.org/abs/1708.00391">A Continuously Growing Dataset of Sentential Paraphrases</a>
+   <br/><b><a href="https://web.cse.ohio-state.edu/~lan.105/">Wuwei Lan</a></b>, Siyu Qiu, Hua He and Wei Xu. <cite>EMNLP 2017</cite>.
+        <br/><a class="button" href="https://arxiv.org/abs/1708.00391">pdf</a> <a class="button" href="https://cocoxu.github.io/bib/bib_emnlp2017_paraphrase.txt">BibTeX</a> <a class="button" href="Wuwei_OSU_2017_v2.pdf">slides</a> <a class="button" href="./emnlp2017/url-data-poster.pdf">poster</a>
+    </li>
+</ul>
+
+
+<!-----Examples----->
+  <a name="Examples"></a>
+  <h3 style="color:brown">Example Pairs</h3>
+  <ul>
+    <table class="newstuff" style="border-collapse: separate;
+    border-spacing: 0 1em;">
+    <tr><th>Sentence 1</th>  <th>Label</th>  <th>Sentence 2</th></tr>
+    <tr>
+    <td style="padding:0 15px 0 15px;">Samsung halts production of its Galaxy Note 7 as battery problems linger.</td>
+    <td style="padding:0 15px 0 15px;">True</td>
+    <td style="padding:0 15px 0 15px;">#Samsung temporarily suspended production of its Galaxy #Note7 devices following reports</td>
+    </tr>
+    <tr>
+    <td style="padding:0 15px 0 15px;">CO2 levels mark ‘new era’ in the world’s changing climate.</td>
+    <td style="padding:0 15px 0 15px;">True</td>
+    <td style="padding:0 15px 0 15px;">CO2 levels haven’t been this high for 3 to 5 million years.</td>
+    </tr>
+    <tr>
+    <td style="padding:0 15px 0 15px;">The 7 biggest changes Obamacare made , and those that may disappear.</td>
+    <td style="padding:0 15px 0 15px;">False</td>
+    <td style="padding:0 15px 0 15px;">What a repeal of Obamacare would look like , in plain English.</td>
+    </tr>
+    <tr>
+    <td style="padding:0 15px 0 15px;">Fraugster , a startup that uses AI to detect payment fraud , raises $5M.</td>
+    <td style="padding:0 15px 0 15px;">False</td>
+    <td style="padding:0 15px 0 15px;">AI is on the rise and in this case being applied to something worthwhile payment fraud.</td>
+    </tr>
+    </table>
+  </ul>
+
+<!----Published Results----->
+  <a name="Baseline Results"></a>
+  <h3 style="color:brown">Baseline Results</h3>
+  <ul>
+    <table class="newstuff" style="border-collapse: separate;
+    border-spacing: 0 1em;">
+    <tr><th>Publication</th>  <th>Model</th>  <th>F1</th></tr>
+    <tr>
+    <td style="padding:0 20px 0 20px;"><a href="https://arxiv.org/abs/1708.00391">Lan et al.'17 </a></td>
+    <td style="padding:0 20px 0 20px;">Logistic Regression: n-gram overlap features</td>
+    <td style="padding:0 20px 0 20px;">0.683</td>
+    </tr>
+    <tr>
+    <td style="padding:0 20px 0 20px;"><a href="https://arxiv.org/abs/1708.00391">Lan et al.'17 </a></td>
+    <td style="padding:0 20px 0 20px;">LEX-WMF: logistic regression + weighted matrix factorization</td>
+    <td style="padding:0 20px 0 20px;">0.693</td>
+    </tr>
+    <tr>
+    <td style="padding:0 20px 0 20px;"><a href="https://arxiv.org/abs/1708.00391">Lan et al.'17 </a></td>
+    <td style="padding:0 20px 0 20px;">PWIM: pairwise word interaction model</td>
+    <td style="padding:0 20px 0 20px;">0.749</td>
+    </tr>
+    <tr>
+    <td style="padding:0 20px 0 20px;"><a href="https://cocoxu.github.io/publications/Wuwei_NAACL_2018_preprint.pdf">Lan et al.'18 </a></td>
+    <td style="padding:0 20px 0 20px;">Subword-PWIM: subword embedding based PWIM with multi-task LM</td>
+    <td style="padding:0 20px 0 20px;">0.768</td>
+    </tr>
+    </table>
+  </ul>
+
+<!----Download----->
+  <a name="Download"></a>
+  <h3 style="color:brown">Download</h3>
+  <ul>
+  Please fill in the following <a href="https://frozen-ridge-97042.herokuapp.com/">form </a> to request access to the TwitterPPDB corpus and 1-year candidate pairs. It is released for non-commercial use under the CC BY-NC-SA 3.0
+  license. Use of the data must abide by the Twitter Terms of Service and Developer Policy. For any comments or questions, please email <a href="mailto:lan.105@osu.edu">Wuwei Lan</a>.
+  </ul>
+
+<!----Related Resource----->
+  <a name="Related Resource"></a>
+  <h3 style="color:brown">Related Resource</h3>
+  <ul>
+    <a href="https://github.com/cocoxu/SemEval-PIT2015"> PIT-2015</a>: sentence level paraphrases from Twitter based on the same trending topic.
+    Please check this <a href="https://github.com/cocoxu/SemEval-PIT2015">website </a> for more info.
+  </ul>
+
+</body>
+
+</html>
+
