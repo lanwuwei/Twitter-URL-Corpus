@@ -1,5 +1,6 @@
 ## News
 Currently this repository contains 3-month raw data sample, and our 1-year URL data is available now: 2,869,657 candidate pairs. Please check our [paraphrase website](https://languagenet.github.io/) to download dataset. 
+Note: the download link is not working right now, please send email to lan.105@osu.edu for data access.
 
 ## Paraphrase-dataset
 This repository contains code and data used in the following paper, please cite if you use it for your research:
